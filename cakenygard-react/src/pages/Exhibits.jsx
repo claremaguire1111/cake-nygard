@@ -215,8 +215,8 @@ const Exhibits = () => {
 
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
-          <span className="close-button">&times;</span>
-          <div className="modal-content">
+          <span className="close-button" onClick={closeModal} role="button" tabIndex={0} aria-label="Close">&times;</span>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img src={selectedImage} alt="Enlarged view" />
           </div>
         </div>
