@@ -5,16 +5,84 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Official website of artist Cake Nygard featuring artwork, exhibitions, and more."
-    />
+    
+    <!-- Primary Meta Tags -->
+    <title>Cake Nygard | Digital Artist & Founder of Caked World</title>
+    <meta name="title" content="Cake Nygard | Digital Artist & Founder of Caked World">
+    <meta name="description" content="Explore the digital art and mixed media creations of Cake Nygard, Founder of Caked World. View exhibitions, contemporary digital artwork, and latest collections from Minnesota-based artist.">
+    <meta name="keywords" content="Cake Nygard, Caked World, digital art, contemporary artist, Minnesota artist, mixed media, modern art, digital illustration, art exhibitions">
+    <meta name="author" content="Cake Nygard">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cakenygard.com/">
+    <meta property="og:title" content="Cake Nygard | Digital Artist & Founder of Caked World">
+    <meta property="og:description" content="Explore the digital art and mixed media creations of Cake Nygard, Founder of Caked World. View exhibitions, contemporary digital artwork, and latest collections.">
+    <meta property="og:image" content="%PUBLIC_URL%/images/Kidskull3.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.cakenygard.com/">
+    <meta property="twitter:title" content="Cake Nygard | Digital Artist & Founder of Caked World">
+    <meta property="twitter:description" content="Explore the digital art and mixed media creations of Cake Nygard, Founder of Caked World. View exhibitions, contemporary digital artwork, and latest collections.">
+    <meta property="twitter:image" content="%PUBLIC_URL%/images/Kidskull3.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.cakenygard.com/">
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Cake Nygard | Artist</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    
+    <!-- Structured Data for Artist -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cake Nygard",
+        "url": "https://www.cakenygard.com",
+        "image": "%PUBLIC_URL%/images/FullSizeRender.jpg",
+        "sameAs": [
+          "https://www.instagram.com/cakenygardart/"
+        ],
+        "jobTitle": "Artist",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Caked World"
+        },
+        "description": "Cake Nygard is an artist and the Founder of Caked World. He specializes in digital art and mixed media creations, with a distinctive contemporary style developed in Minnesota."
+      }
+    </script>
+    
+    <!-- Structured Data for Art Gallery -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ArtGallery",
+        "name": "Cake Nygard Art Gallery",
+        "description": "Digital art gallery featuring the works of contemporary artist Cake Nygard, founder of Caked World.",
+        "image": "%PUBLIC_URL%/images/Kidskull3.png",
+        "url": "https://www.cakenygard.com",
+        "telephone": "",
+        "sameAs": [
+          "https://www.instagram.com/cakenygardart/"
+        ],
+        "openingHours": "Mo-Su",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Minneapolis",
+          "addressRegion": "MN",
+          "addressCountry": "US"
+        }
+      }
+    </script>
   </body>
 </html>
