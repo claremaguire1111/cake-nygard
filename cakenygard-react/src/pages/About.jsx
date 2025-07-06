@@ -5,7 +5,7 @@ const About = () => {
   return (
     <main className="about-container">
       <div className="about-image">
-        <img src="/images/FullSizeRender.jpg" alt="Cake Nygard" />
+        <img src="/images/cakeartist.png" alt="Cake Nygard - Artist" />
       </div>
       <div className="about-text">
         <p>Cake Nygard is an artist and the Founder of Caked World. He has lived in the heartland of the vast nowhere of Minnesota almost all his life, far removed from bustling city life and its museums. His focus therefore was never so much on looking at art, but rather on creating it: he was constantly drawing from the moment he could.</p>

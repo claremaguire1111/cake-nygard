@@ -122,6 +122,91 @@ const Home = () => {
       title: 'Edited Composition',
       year: '2024',
       medium: 'Digital'
+    },
+    // Adding newly added images from the add folder
+    {
+      id: 18,
+      image: '/images/add/Screenshot 2025-07-06 at 10.57.38.png',
+      title: 'Digital Artwork I',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 19,
+      image: '/images/add/bdefd8b5-74f5-4329-95fc-769cfcdb790b.jpg',
+      title: 'Exhibition Piece',
+      year: '2023',
+      medium: 'Mixed Media'
+    },
+    {
+      id: 20,
+      image: '/images/add/Screenshot 2025-07-06 at 10.59.20.png',
+      title: 'Digital Artwork II',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 21,
+      image: '/images/add/Screenshot 2025-07-06 at 11.00.37.png',
+      title: 'Digital Artwork III',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 22,
+      image: '/images/add/Screenshot 2025-07-06 at 10.57.58.png',
+      title: 'Digital Artwork IV',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 23,
+      image: '/images/add/Screenshot 2025-07-06 at 10.58.48.png',
+      title: 'Digital Artwork V',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 24,
+      image: '/images/add/Screenshot 2025-07-06 at 10.59.29.png',
+      title: 'Digital Artwork VI',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 25,
+      image: '/images/add/Screenshot 2025-07-06 at 10.58.09.png',
+      title: 'Digital Artwork VII',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 26,
+      image: '/images/add/Screenshot 2025-07-06 at 11.00.44.png',
+      title: 'Digital Artwork VIII',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 27,
+      image: '/images/add/Screenshot 2025-07-06 at 10.57.38-1.png',
+      title: 'Digital Artwork IX',
+      year: '2024',
+      medium: 'Digital'
+    },
+    {
+      id: 28,
+      image: '/images/add/IMG_2542.jpg',
+      title: 'Gallery Exhibition',
+      year: '2023',
+      medium: 'Photography'
+    },
+    {
+      id: 29,
+      image: '/images/add/Screenshot 2025-07-06 at 10.57.28.png',
+      title: 'Digital Artwork X',
+      year: '2024',
+      medium: 'Digital'
     }
   ];
 

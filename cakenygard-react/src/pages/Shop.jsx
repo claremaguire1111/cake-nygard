@@ -6,7 +6,7 @@ const Shop = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Thank you for your interest! This feature will be implemented when the site goes live.');
+    // Form will be submitted to Formspree
     setEmail('');
   };
 
@@ -22,9 +22,10 @@ const Shop = () => {
           <h3>Get notified</h3>
           <p>Sign up to be notified when the shop launches:</p>
           
-          <form className="notify-form" onSubmit={handleSubmit}>
+          <form className="notify-form" action="https://formspree.io/f/xkgbaqqv" method="POST">
             <input 
               type="email" 
+              name="email"
               placeholder="Email" 
               required
               value={email}
