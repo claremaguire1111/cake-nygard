@@ -1,0 +1,7 @@
+Create the following placeholder images for the website:
+
+1. placeholder.jpg - Artwork placeholder image (600x400px)
+2. about-placeholder.jpg - About page image placeholder (500x600px)
+3. insta-placeholder.jpg - Instagram feed placeholder (300x300px)
+
+These can be replaced with actual images when available.
