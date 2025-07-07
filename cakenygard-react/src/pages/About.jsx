@@ -8,7 +8,7 @@ const About = () => {
         <img src="/images/cakeartist.png" alt="Cake Nygard - Artist" />
       </div>
       <div className="about-text">
-        <p>Cake Nygard is an artist and the Founder of Caked World. He has lived in the heartland of the vast nowhere of Minnesota almost all his life, far removed from bustling city life and its museums. His focus therefore was never so much on looking at art, but rather on creating it: he was constantly drawing from the moment he could.</p>
+        <p>Cake Nygard is an artist who lives in the woods. He has lived in the heartland of the vast nowhere of Minnesota almost all his life, far removed from bustling city life and its museums. His focus therefore was never so much on looking at art, but rather on creating it: he was constantly drawing from the moment he could.</p>
         
         <p>Nygard's passion for creating art seemed to indicate a future in art school, but the artisan chose to study graphic design - for job security reasons - instead. However, after spending considerable time immersed in corporate graphic design jobs and working within the stringent parameters of brand standards, Nygard felt the strong urge to branch out.</p>
         
